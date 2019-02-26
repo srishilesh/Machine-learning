@@ -1,8 +1,9 @@
 import numpy as np
 import pandas as pd
 import math
+import pylab as plt
 
-file=pd.read_csv('')  # File directory
+file=pd.read_csv('Accuracy.csv')  # File directory
 #file=[[1,2],[3,4],[5,6],[7,8]]
 
 tp=np.array(file['tp'].values,dtype=np.float64)    # True Positives
@@ -37,7 +38,8 @@ def youdenj(tp,tn,fp,fn):   # Youdens J statistic
     for i in range(tp.size):
         j=((tp[i]/(tp[i]+fn[i]))+(tn[i]/(tn[i]+fp[i]))-1)
     return j
-
+def typeone(fp): # False positives
+    return fp[0]
 
 print("Recall score: ",recall(tp,fn))
 print()
@@ -49,3 +51,6 @@ print("Matthew Correlation Coefficient: ",mcc(tp,tn,fp,fn))
 print()
 print("Youdens J statistic: ",youdenj(tp,tn,fp,fn))
 print()
+print("Type 1 error: ",typeone(fp))
+print()
+
