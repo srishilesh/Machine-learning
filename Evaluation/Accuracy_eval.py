@@ -32,6 +32,11 @@ def mcc(tp,tn,fp,fn):   # Calculate Matthew Correlation Coefficient
         val=(((tp[i]*tn[i])-(fp[i]*fn[i]))/(math.sqrt((tp[i]+fp[i])*(tp[i]+fn[i])*(tn[i]+fp[i])*(tn[i]+fn[i]))))
     return val
 
+def youdenj(tp,tn,fp,fn):   # Youdens J statistic
+    i=0
+    for i in range(tp.size):
+        j=((tp[i]/(tp[i]+fn[i]))+(tn[i]/(tn[i]+fp[i]))-1)
+    return j
 
 
 print("Recall score: ",recall(tp,fn))
@@ -42,4 +47,5 @@ print("F1 score: ",f1score(tp,fn,fp))
 print()
 print("Matthew Correlation Coefficient: ",mcc(tp,tn,fp,fn))
 print()
-
+print("Youdens J statistic: ",youdenj(tp,tn,fp,fn))
+print()
