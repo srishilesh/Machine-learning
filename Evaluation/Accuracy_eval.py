@@ -41,6 +41,9 @@ def youdenj(tp,tn,fp,fn):   # Youdens J statistic
 def typeone(fp): # False positives
     return fp[0]
 
+def mae(tp,tn):
+    return abs(tp[0]-tn[0])
+
 print("Recall score: ",recall(tp,fn))
 print()
 print("Precision score: ",precision(tp,fp))
@@ -53,4 +56,5 @@ print("Youdens J statistic: ",youdenj(tp,tn,fp,fn))
 print()
 print("Type 1 error: ",typeone(fp))
 print()
-
+print("Mean Absolute error: ",mae(tp,tn))
+print()
