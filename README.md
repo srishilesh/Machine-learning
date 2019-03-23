@@ -1,5 +1,5 @@
 # Machine-learning
-This repostitory consists of various concepts' implementation of Machine learning using Python and GNU Octave.
+This repository consists of various concepts' implementation of Machine learning using Python and GNU Octave.
 
 1) Data Preprocessing
 
