@@ -13,5 +13,6 @@ This repository consists of various concepts' implementation of Machine learning
 3) Neural Networks
 
 4) Flask API 
-    
+      #. Hosting a Web API in the local system
+      
 5) Coursera GNU Octave solutions
