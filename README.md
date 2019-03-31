@@ -12,7 +12,7 @@ This repository consists of various concepts' implementation of Machine learning
 
 2) Linear Regression
 
-* [Simple Linear Regression with scikit](Linear Regression/Simple Linear Regression/simple_linear_regression.py)
+*[Simple Linear Regression with scikit](Linear Regression/Simple Linear Regression/simple_linear_regression.py)
 
 * [Multiple Linear Regression]
 
@@ -22,3 +22,4 @@ This repository consists of various concepts' implementation of Machine learning
       #. Hosting a Web API in the local system
       
 5) Coursera GNU Octave solutions
+ 
