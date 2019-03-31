@@ -12,7 +12,8 @@ This repository consists of various concepts' implementation of Machine learning
 
 2) Linear Regression
 
-* [Simple Linear Regression with scikit](Machine-learning-Self/Linear Regression/Simple Linear Regression/simple_linear_regression.py)
+* [Simple Linear Regression with scikit] (Machine-learning-Self/Linear Regression/Simple Linear Regression/simple_linear_regression.py)
+
 * [Multiple Linear Regression]
 
 3) Neural Networks
