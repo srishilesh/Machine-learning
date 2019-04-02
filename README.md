@@ -16,7 +16,7 @@ This repository consists of various concepts' implementation of Machine learning
 
       * [Multiple Linear Regression]
 
-3) Neural Networks
+3) [Neural Networks](https://github.com/srishilesh/Machine-learning-Self/tree/master/Neural%20network)
 
 4) [Flask API](https://github.com/srishilesh/Machine-learning-Self/tree/master/Flask%20API)
 
