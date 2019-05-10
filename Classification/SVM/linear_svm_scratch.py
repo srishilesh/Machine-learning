@@ -74,7 +74,7 @@ for d,samples in enumerate(X):      # To split X in terms of (i,X[i]) i = 0 -> l
 plt.scatter(2,2, s=120, marker='_', linewidths=2, color='yellow')
 plt.scatter(4,3, s=120, marker='+', linewidths=2, color='blue')
 
-plt.show()
+
 w = svm_sgd(X,y)
 
 # Printing the hyperplane as calculated
@@ -86,4 +86,4 @@ X,Y,U,V = zip(*x2x3)
 ax = plt.gca()
 ax.quiver(X,Y,U,V,scale=1,color='blue')
 
-
+plt.show()
