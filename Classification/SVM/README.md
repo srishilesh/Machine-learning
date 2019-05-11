@@ -2,13 +2,13 @@
 
 * https://github.com/llSourcell/Classifying_Data_Using_a_Support_Vector_Machine/blob/master/support_vector_machine_lesson.ipynb
 
-# Example use cases
+## Example use cases
 
 * https://github.com/ksopyla/svm_mnist_digit_classification
 
 * https://github.com/akasantony/pulse-classification-svm
 
-# Other Resources
+## Other Resources
 
 * https://www.analyticsvidhya.com/blog/2017/09/understaing-support-vector-machine-example-code/
 
