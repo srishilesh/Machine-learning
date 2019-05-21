@@ -71,4 +71,15 @@ print('theta: ',theta.ravel())
 plt.plot(Cost_J)
 plt.ylabel('Cost J')
 plt.xlabel('Iterations')
-plt.show()
+#plt.show()
+
+xx = np.arange(5,23)
+#print(X[].shape+"")
+#yy = theta[0] + theta[1]*xx
+print(xx.shape)
+print(np.dot(theta[1],xx))
+
+plt.scatter(X[:,1],y,s=30,c='r',marker='x',linewidths=10)
+#plt.plot(xx,yy,label='LR')
+#plt.show()
+
