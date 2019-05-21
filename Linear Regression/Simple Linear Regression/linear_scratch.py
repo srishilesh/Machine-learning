@@ -35,6 +35,17 @@ def computeCost(X,y,theta):
     J = (1/(2*m))*(np.sum(np.square(h-y)))
     return J
 
+def gradientDescent(X,y,theta=[[0],[0]],alpha=0.01,num_iters = 1500):
+    m = y.size
+    J_history = np.zeros(num_iters)
+
+    for iter in range(num_iters):
+        h = X.dot(theta)
+        theta = theta - alpha*(1/m)*(X.T.dot(h-y))  # Reducing the parameters theta
+        J_history[iter] = computeCost(X,y,theta)    # Computing the cost function with the particular parameters
+
+    return (theta,J_history)
+
 X = np.stack([np.ones(m),X],axis=1)     # Adding an additional column of ones to the X matrix for easier manipulation
 
 
@@ -50,6 +61,14 @@ print('Expected cost value (approximately) 54.24')
 
 
 #plotData(X,y)       # Plotting the data in the graph
-print(X.shape)
-theta=np.array([0.0, 0.0])
-print(theta.shape)
+#print(X.shape)
+#theta=np.array([0.0, 0.0])
+#print(theta.shape)
+theta , Cost_J = gradientDescent(X, y)
+print('theta: ',theta.ravel())
+
+# Graph for showing the Cost vs Iterations of the model
+plt.plot(Cost_J)
+plt.ylabel('Cost J')
+plt.xlabel('Iterations')
+plt.show()
