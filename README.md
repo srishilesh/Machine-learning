@@ -2,7 +2,8 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 # Machine-learning
-This repository consists of various concepts' implementation of Machine learning using Python and GNU Octave.
+This repository consists of various implementation of Machine learning concepts using Python and GNU Octave.
+Please feel free to fork and contribute through pull requests.
 
 ### Tutorials
 
