@@ -4,10 +4,10 @@
 # Machine-learning
 This repository consists of various concepts' implementation of Machine learning using Python and GNU Octave.
 
-### Tutorials
-
 ### Languages
-#### Python, GNU Octave
+* Python
+* GNU Octave
+### Tutorials
 1) Data Preprocessing
 
 2) Linear Regression
