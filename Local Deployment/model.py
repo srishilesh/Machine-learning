@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.linear_model import LogisticRegression
 
 # Importing the dataset
-data = pd.read_csv('E:/General/Personal/Others/Blogging/Technical codes/Deploying ML models Flask/iris.csv')
+data = pd.read_csv('iris.csv')
 
 # Dictionary containing the mapping
 variety_mappings = {0: 'Setosa', 1: 'Versicolor', 2: 'Virginica'}
